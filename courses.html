@@ -39,15 +39,68 @@
 			.footer {
 				margin-top: 20px;
 			}
-		</style>	    
+
+			.bs-docs-sidenav {
+			    margin-top: 20px;
+			    margin-bottom: 20px
+			}
+
+			.bs-docs-sidebar .nav>li>a {
+			    display: block;
+			    font-size: 13px;
+			    font-weight: 500;
+			    color: #999;
+			    padding: 4px 20px
+			}
+
+			.bs-docs-sidebar .nav>li>a:hover, .bs-docs-sidebar .nav>li>a:focus {
+			    padding-left: 19px;
+			    color: #563d7c;
+			    text-decoration: none;
+			    background-color: transparent;
+			    border-left: 1px solid #563d7c
+			}
+
+			.bs-docs-sidebar .nav>.active>a, .bs-docs-sidebar .nav>.active:hover>a,
+			.bs-docs-sidebar .nav>.active:focus>a {
+			    padding-left: 18px;
+			    font-weight: 700;
+			    color: #563d7c;
+			    background-color: transparent;
+			    border-left: 2px solid #563d7c
+			}
+
+			.bs-docs-sidebar .nav .nav {
+			    display: none;
+			    padding-bottom: 10px
+			}
+
+			.bs-docs-sidebar .nav .nav>li>a {
+			    padding-top: 1px;
+			    padding-bottom: 1px;
+			    padding-left: 30px;
+			    font-size: 12px;
+			    font-weight: 400
+			}
+
+			.bs-docs-sidebar .nav .nav>li>a:hover, .bs-docs-sidebar .nav .nav>li>a:focus {
+			    padding-left: 29px
+			}
+
+			.bs-docs-sidebar .nav .nav>.active>a, .bs-docs-sidebar .nav .nav>.active:hover>a,
+			.bs-docs-sidebar .nav .nav>.active:focus>a {
+			    font-weight: 500;
+			    padding-left: 28px
+			}			
+		</style>
 	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	    <!--[if lt IE 9]>
 	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	    <![endif]-->	
+	    <![endif]-->
 	</head>
-	<body>
+	<body data-spy="scroll" data-target="#sidebar">
 		<header class="navbar navbar-static-top" role="banner">
 			<div class="container">
 				<div class="navbar-header">
@@ -73,7 +126,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="affix">
+					<div id="sidebar" class="affix bs-docs-sidenav" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
 						<ul class="nav">
 							<li>
 								<a href="#gis510">GIS 510</a>
@@ -89,20 +142,45 @@
 							</li>
 							<li>
 								<a href="#gis550">GIS 550</a>
-							</li>		
+							</li>
 							<li>
 								<a href="#gis590">GIS 590</a>
-							</li>																																		
+							</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-9">
 					<h1 id="gis510">GIS 510</h1>
+					<p id="ov510" class="lead">Overview</p>
+						<p>This is the introductory GIS course for the Masters of Geospatial Information Science and Technology program at
+						NC State.</p>					
+					<p id="skills510" class="lead">Skills Learned</p>
+					<p id="proj510" class="lead">Projects</p>
 					<h1 id="mea582">MEA 582</h1>
+					<p id="ov582" class="lead">Overview</p>
+						<p>This course dealt with spatial analysis techniques used in two different software packages, Esri's ArcGIS Desktop
+						and the open source GRASS.</p>						
+					<p id="skills582" class="lead">Skills Learned</p>
+					<p id="proj582" class="lead">Projects</p>
 					<h1 id="gis530">GIS 530</h1>
+					<p id="ov530" class="lead">Overview</p>
+						<p>This course covered many of the theories behind GIS, including coordinate systems, etc.</p>
+					<p id="skills530" class="lead">Skills Learned</p>
+					<p id="proj530" class="lead">Projects</p>
 					<h1 id="gis540">GIS 540</h1>
+					<p id="ov540" class="lead">Overview</p>
+						<p>This is the programming course for the MGIST programming and focuses primarily on Python scripting and the ArcGIS
+						 arcpy library.  Beginning with basic Python fundamentals...</p>
+					<p id="skills540" class="lead">Skills Learned</p>
+					<p id="proj540" class="lead">Projects</p>
 					<h1 id="gis550">GIS 550</h1>
+					<p id="ov550" class="lead">Overview</p>
+					<p id="skills550" class="lead">Skills Learned</p>
+					<p id="proj550" class="lead">Projects</p>
 					<h1 id="gis590">GIS 590</h1>
+					<p id="ov590" class="lead">Overview</p>
+					<p id="skills590" class="lead">Skills Learned</p>
+					<p id="proj590" class="lead">Projects</p>
 				</div>
 			</div>
 			<div class="footer row well">
@@ -113,5 +191,10 @@
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function () {
+
+			});
+		</script
 	</body>
 </html>
