@@ -12,7 +12,9 @@
 			body, html {
 				width: 100%;
 			}
-
+			.navbar {
+				margin-bottom: 0;
+			}
 			.container {
 				width: 100%;
 			}
@@ -35,9 +37,14 @@
 			#ncsuLogo {
 				max-width: 120px;
 			}
-
+			#raleighLogo {
+				max-width: 120px;
+			}
 			.footer {
 				margin-top: 20px;
+			}
+			.logo {
+				max-width: 80px;
 			}
 		</style>	    
 	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -75,9 +82,10 @@
 				<div class="col-sm-4 about">
 					<h3>About</h3>
 					<div class="row">
-						<div class="col-sm-6">I am a GIS professional with over 13 years of experience.</div>
-						<img class="col-sm-6 img-thumbnail" src="img/about.jpg">
+						<div class="col-sm-6">I am a GIS professional with over 13 years of experience, having worked for both engineering firms and local government.  My experience ranges from GIS data creation to database administration to web mapping application development.  I reside in Cary, North Carolina with my wife, two daughters, and dog.  I moved to the Triangle area after growing up in Connecticut.  I am a native of Pittsburgh, PA and am an avid Steelers fan.</div>
+						<img class="col-sm-6 img-thumbnail" src="img/about.jpg"/>
 					</div>
+					<a class="btn btn-danger" href="skills.html">View Skills</a>
 				</div>
 				<div class="col-sm-4">
 					<h3>Education</h3>			
@@ -85,20 +93,34 @@
 
 					<div class="row">
 						<div class="col-sm-6">I received my undergraduate degree from <a href="http://www.psu.edu" target="_blank">The Pennsylvania State University</a>, majoring with a Bachelor of Science in Geography.</div>
-						<img class="col-sm-6" src="img/psu.png" id="psuLogo">
+						<img class="col-sm-6" src="img/psu.png" id="psuLogo"/>
 					</div>		
 					<p class="lead">Graduate</p>					
 					<div class="row">
-						<div class="col-sm-6">I currently a masters student at <a href="http://www.ncsu.edu" target="_blank">North Carolina State University</a> in the Masters of Geospatial Information Science &amp; Technology.</div>
-						<img class="col-sm-6" src="img/ncsu.png" id="ncsuLogo">
+						<div class="col-sm-6">I currently a masters student at <a href="http://www.ncsu.edu" target="_blank">North Carolina State University</a> in the Masters of Geospatial Information Science &amp; Technology.  I will be earning my degree at the end of the fall semester of 2014.</div>
+						<img class="col-sm-6" src="img/ncsu.png" id="ncsuLogo"/>
 					</div>									
-					<a class="btn btn-danger" href="courses.html">View Courses</a>
+					<!-- <a class="btn btn-danger" href="courses.html">View Courses</a> -->
 				</div>
 				<div class="col-sm-4">
-					<h3>Employment</h3>		
-					<h4 class="lead">City of Raleigh<small>  Raleigh, NC</small></h4>
-					<h4 class="lead">WK Dickson<small>  Raleigh, NC</small></h4>
-					<h4 class="lead">ECS<small>  Haddam, CT</small></h4>			
+					<h3>Employment</h3>
+					<div class="row">
+						<h4 class="lead">City of Raleigh<small>  Raleigh, NC</small></h4>
+						<div class="col-sm-6"><strong>Senior GIS Developer</strong> responsible for web mapping application developement for the City.  Rewrote the City and County's flagship property mapping application iMAPS.  Also responsible for ArcGIS for Server administration, map service creation, and open source GIS initiative.</div>
+						<img class="col-sm-6" src="img/raleigh.png" id="raleighLogo"></img>
+					</div>		
+					<div class="row">
+						<h4 class="lead">WK Dickson<small>  Raleigh, NC</small></h4>
+						<div class="col-sm-6"><strong>GIS Analyst</strong> responsible for geodatabase design and management for utility inventory projects for local governments in the Southeast.  Also managed the firm's GPS utilities, including mapping and survey grade units.  GIS scripting using Python, ArcObjects, and web mapping application development.</div>
+						<img class="col-sm-6 logo" src="img/wkd.png" ></img>
+					</div>
+					<div class="row">
+						<h4 class="lead">ECS<small>  Haddam, CT</small></h4>	
+						<div class="col-sm-6"><strong>GIS Analyst</strong> responsible for parcel mapping projects for local governments.  Also used CAD for design drawings for engineering staff as well as cartographic map design.</div>
+						<img class="col-sm-6 logo" src="img/ecs.png" ></img>						
+					</div>
+					
+						
 				</div>					
 			</div>
 			<div class="footer row well">

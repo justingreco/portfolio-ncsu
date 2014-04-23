@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Justin Greco Portfolio</title>
+
+	    <!-- Bootstrap -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<style>
+			body, html {
+				width: 100%;
+			}
+			.navbar {
+				margin-bottom: 0;
+			}
+			.jumbotron {
+				background-color: #CC0000;
+				color: white;
+				width: 100%;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+
+			.about img {
+				max-width: 200px;
+			}
+
+			#psuLogo {
+				max-width: 150px;
+			}
+
+			#ncsuLogo {
+				max-width: 120px;
+			}
+
+			.footer {
+				margin-top: 20px;
+			}
+		</style>
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<header class="navbar navbar-static-top" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+			      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a href="index.html" class="navbar-brand">Justin Greco</a>
+				</div>
+				<div class="collapse navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav">
+
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="container jumbotron">
+			<h2>GIS 590 Portfolio</h2>
+			<p class="lead">A professional portfolio documenting my education and employment in GIS</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<p class="lead page-header">Desktop GIS</p>
+				<p>During my career I have primarily used Esri products, from ArcInfo Workstation to ArcView 3.x to the current release of ArcGIS Desktop.  Through my use of ArcGIS Desktop and design classes
+				while at Penn State, I have built a strong background in cartographic design.  Having started in the command line environment of ArcInfo Workstation, which gives me an appreciation of how far desktop GIS has evolved over the years.  My first job out of college, at ECS, primarily focused on property mapping using ArcInfo Workstation, this gave me a strong foundation for GIS data entry.  From property mapping, my next career focus was GIS data collection for utility infrastructures at WK Dickson.</p>
+				<p>In addition to Esri products, I have some experience with open source GIS products, including QGIS and GRASS.  The later was a software package that was the primary focus for the Geospatial Modeling and Analysis course at NC State University.  The image below is from the final project for this course which analyzed the affect of building shadows in downtown Raleigh.</p>
+				<p class="lead page-header">Server GIS</p>
+				<p>My first experience with server GIS began with using ArcIMS while at WK Dickson.  This then changed over to ArcGIS Server a few years later.  At WK Dickson we hosted project related data for client and internal use.  This was a simple way to show the client their project data while it was being collected in the field.  My use of ArcGIS Server increased exponentially when I started at the City of Raleigh.  My first task was to install ArcGIS Server and then create 30 to 40 map services using countywide data for consumption in the iMAPS property research application.
+				</p>
+				<p class="lead page-header">Database Management</p>
+				<p>At the beginning of my GIS career, I managed ArcGIS coverages in ArcInfo Workstation to store parcel datasets.  With the release of Esri's personal geodatabase format, I began administering geodatabases at WK Dickson, primarily for storing utility infrastructure data.  I had not worked at a firm that had ArcSDE capabilities until I started with the City of Raleigh.  At the City, I have assisted our GIS Database Adminstrator with storing and maintaining GIS data inside of the City's Oracle database.  This is the City's primary GIS storage mechanism.</p>
+				<p>
+					While at the City of Raleigh and at NC State, I was exposed to using open source databases as well.  These databases include PostgreSQL, with the PostGIS extension and MongoDB, which is a NoSQL database.  I recently developed new application created for the Capital Area Transit which stored adopted bus shelter information in a PostGIS database.  MongoDB was used to store development data for the Development Dashboard application, which was used for my Masters project at NC State.
+				</p>
+				<p class="lead page-header">Programming</p>
+				<p></p>
+				<p class="lead page-header">Web Mapping Application Development</p>
+				<p>My web application development started with managing ArcIMS web applications while at WK Dickson.  The purpose of these web application was to allow for our clients to be able to view project data while it was being collected in the field.  After I began using ArcGIS Server, I built web applications using Esri's Web ADF framework.  However my passion for application development began when I started using Esri's Flex API.  This lead to getting hired as a developer for the City of Raleigh, who was planning to migrate their iMAPS property research application from ArcIMS to ArcGIS Server.  With the popularity of the Flex API at the time, they decided to move in that direction.  My first project while at the City was to handle this migration process by rewritting iMAPS from scratch.</p>
+				<p>With the increase of mobile technology with both smart phones and tablets, the use of Flex began to decline.  This lead to me to move my focus away from Flex and toward JavaScript.  This started with the ArcGIS JavaScript API, which I have used to develop several applications including the City's Park Locator.  However with my interests shifting to open source software, the majority of my web mapping applications now use the Leaflet JavaScript library.  In addition to Leaflet, much of that data that I use for my applications are in open source formats such as GeoJSON and TopoJSON.</p>
+				<p>
+					In addition to web development, I also have experience with native app development for mobile operating systems.  The City's iMAPS Mobile application is available in the Apple App Store and was developed using XCode, Objective-C, the iOS SDK, and the ArcGIS Runtime SDK for iOS.  I also have plans to replicate the application using Android as well.
+				</p>
+				<p>
+					While at NC State, I also gained some experience with web application development.  The Masters Project at NC State required the development of a web mapping application as the end product.  The theme for my project was to develop a 100% open source application.  The project that was selected was a Development Dashboard for the City of Raleigh's Planning and Development Department.  The app supplies citizen's an easy to use interface for discovering what development is occurring in their area of the City.  The app was developed on a Python server hosted by Redhat using the Openshift service.  All the data was stored in a MongoDB database and then exposed to the web through a Flask web service.  The front-end of the application utilized Leaflet for the map and Bootstrap for the overall framework of the application, as well as D3 for charting.
+				</p>
+			</div>
+			<div class="footer row well">
+
+			</div>
+		</div>
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</body>
+</html>
