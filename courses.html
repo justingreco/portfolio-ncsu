@@ -37,6 +37,8 @@
 
 			.footer {
 				margin-top: 20px;
+				border-radius: 0;
+				width: 100%;
 			}
 		</style>
 	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -76,15 +78,28 @@
 				<h1>GIS Masters Project</h1>
 				<p class="lead">A summary of my NC State Masters' Project
 				<p class="lead page-header">Development Dashboard</p>
+				<div class="row">
+					<center>
+						<div class="thumbnail">
+							<img src="img/dashboard.png"/>
+						</div>
+					</center>
+				</div>
 				<p>The final course that is part of the Masters of Geospatial Information Science and Technology at NC State is the GIS Masters' Project.  The requirements for this project is that a GIS solution is developed for a client from beginning to end.  This process included meeting with the client to designing the database to developing a web mapping application.  The application that I developed for this project was the City of Raleigh's Development Dashboard.  The idea behind the dashboard is to give the public an easy tool to find what and how much development is occurring in their vicinity.  The data that is available for querying in the application are building permits and development plans.  The source data for this application was made available from the Planning and Development department's database.</p>
 				<p>The theme of the application was to develop it using 100% open source tools.  This was successfully done using a Python application server hosted by Redhat's OpenShift service.  An open source MongoDB database was used to store all of the data geospatially and is exposed to the application through a Flask web service.  The front end of the application was developed using Twitter's open source application framework called Bootstrap.  Finally the map part of the application was developed using the open source web mapping API Leaflet.</p>
+
 				<a style="margin-top:20px;" class="btn btn-danger" href="http://python-greconcsu.edu/dashboard/">View Application</a>
 
 			</div>
-			<div class="footer row well">
 
-			</div>
 		</div>
+<div class="footer well">
+<center>
+<p>&copy; 2014
+<p>Developed by Justin Greco for NC State Masters of Geospatial Information Science &amp; Technology program</p>
+<p>Code for portfolio available on <a href="https://github.com/justingreco/portfolio-ncsu" target="_blank">GitHub</a></p>
+</center>
+</div>
 	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
